@@ -15,7 +15,7 @@ import Link from 'next/link';
 
 const Topbar = () => {
   return (
-    <section className='  hidden md:block font-normal text-base bg-[#335880]  backdrop-blur-md text-gray-300 p-4 text-center py-1   '>
+    <section className='  hidden md:block font-normal text-base bg-red-500 backdrop-blur-md text-gray-300 p-4 text-center py-1   '>
       <div className='  flex items-center justify-between container '>
         <div>
           <small>
@@ -25,17 +25,17 @@ const Topbar = () => {
         <Carousel
           autoplay
           dots={false}
-          className='max-w-xs   text-center text-gray-300  '
+          className='max-w-xs   text-center text-white  '
           autoplaySpeed={1800}
         >
           <div>
-            <span>Welcome to MSP Tutoring</span>
+            <span>Welcome Cross Road Initiative</span>
           </div>
           <div>
-            <span>Tutors Now Available</span>
+            <span>দেশের সেরা ইন্সট্রাকটর</span>
           </div>
           <div>
-            <span>Improve Your Result </span>
+            <span>বিদেশে উচ্চশিক্ষা </span>
           </div>
         </Carousel>
         <div className='text-lg cursor-pointer  space-x-4 text-white leading-3  '>

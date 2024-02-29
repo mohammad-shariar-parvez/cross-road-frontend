@@ -197,7 +197,7 @@ const EditServicePage = ({ params }: any) => {
                 <label className='font-bold text-base text-[#565656] mb-2'>
                   Description
                 </label>
-                <FormTextArea name='description' rows={8} />
+                <FormTextArea name='description' rows={8} richText />
               </div>
             </div>
             <Button

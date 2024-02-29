@@ -15,7 +15,7 @@ function Footer() {
       <div className='grid grid-cols-1 gap-x-8 gap-y-10  md:grid-cols-4  text-black  container p-4 py-20  '>
         <div className='space-y-6  '>
           <h6 className=' text-lg leading-normal font-semibold  '>
-            MSP Tutoring
+            Cross Road Initiative
           </h6>
 
           <div className='space-y-4'>

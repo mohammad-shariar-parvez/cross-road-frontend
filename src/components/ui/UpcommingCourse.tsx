@@ -11,11 +11,11 @@ import { Divider, Empty } from 'antd';
 import CourseCardScalaton from './scalaton/CourseCardScalaton';
 
 const UpcommingCourse = () => {
-  const [location, setLocation] = useState('Natore');
+  const [location, setLocation] = useState('Dhaka');
   const [active, setActive] = useState(true);
   const { data, isLoading, isError } = useCoursesQuery({
     limit: 4,
-    location,
+    // location,
     status: 'UPCOMMING',
   });
 
@@ -62,9 +62,9 @@ const UpcommingCourse = () => {
   return (
     <div className='container mb-32 '>
       <h1 className='sub-title sub-title-style text-center   '>
-        Upcomming Courses
+        পরবর্তী কোর্স
       </h1>
-      <div className='space-x-2 text-sm md:text-lg '>
+      {/* <div className='space-x-2 text-sm md:text-lg '>
         <button
           className={` ${
             active
@@ -101,7 +101,7 @@ const UpcommingCourse = () => {
           </div>
         </button>
       </div>
-      <Divider className='my-4'></Divider>
+      <Divider className='my-4'></Divider> */}
       {searchComponent}
     </div>
   );

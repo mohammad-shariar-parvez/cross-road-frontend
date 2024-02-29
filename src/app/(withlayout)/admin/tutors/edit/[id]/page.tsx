@@ -140,7 +140,7 @@ const EditTutorPage = ({ params }: any) => {
                 Bio
               </label>
 
-              <FormTextArea name='bio' rows={8} />
+              <FormTextArea name='bio' rows={8} richText />
             </div>
           </div>
 

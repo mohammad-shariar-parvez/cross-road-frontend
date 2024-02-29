@@ -10,7 +10,7 @@ import CourseCardScalaton from './scalaton/CourseCardScalaton';
 import { FaDatabase } from 'react-icons/fa';
 
 const Course: React.FC = () => {
-  const [location, setLocation] = useState('Natore');
+  const [location, setLocation] = useState('Dhaka');
   const [active, setActive] = useState(true);
 
   const onChange = (key: string) => {
@@ -20,7 +20,7 @@ const Course: React.FC = () => {
 
   const { data, isLoading, isError, isFetching } = useCoursesQuery({
     limit: 8,
-    location,
+    // location,
     status: 'RUNNING',
   });
 
@@ -72,11 +72,9 @@ const Course: React.FC = () => {
   }
   return (
     <section className='container mb-32'>
-      <h1 className='sub-title sub-title-style text-center  '>
-        Available Courses
-      </h1>
+      <h1 className='sub-title sub-title-style text-center  '>বর্তমান কোর্স</h1>
 
-      <div className='space-x-2 text-sm md:text-lg '>
+      {/* <div className='space-x-2 text-sm md:text-lg '>
         <button
           className={` ${
             active
@@ -91,7 +89,7 @@ const Course: React.FC = () => {
             <span className=' inline-block '>
               <FaLocationDot />
             </span>
-            <span className='inline-block'>Natore</span>
+            <span className='inline-block'>Nato</span>
           </div>
         </button>
 
@@ -112,8 +110,8 @@ const Course: React.FC = () => {
             <span className='inline-block'>Gazipur</span>
           </div>
         </button>
-      </div>
-      <Divider className='my-4'></Divider>
+      </div> */}
+      {/* <Divider className='my-4'></Divider> */}
 
       {searchComponent}
     </section>

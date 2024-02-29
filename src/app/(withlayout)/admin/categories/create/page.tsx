@@ -12,11 +12,11 @@ import { Button, Col, Row, message } from 'antd';
 const CreateCategoryPage = () => {
   const [addCategory] = useAddCategoryMutation();
 
-  const onSubmit = async (data: any) => {
-    // console.log(data);
+  const onSubmit = async (values: any) => {
+    // console.log('allllllll-- dataaaaa', values);
     message.loading('Creating.....');
     try {
-      await addCategory(data);
+      await addCategory(values);
       message.success('Category added successfully');
     } catch (err: any) {
       message.error(err.message);

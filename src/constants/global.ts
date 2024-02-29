@@ -1,13 +1,13 @@
 export const locationOptions = [
   {
-    label: "Natore",
-    value: "Natore",
+    label: "Dhaka",
+    value: "dhaka",
   },
 
-  {
-    label: "Gazipur",
-    value: "Gazipur",
-  },
+  // {
+  //   label: "Gazipur",
+  //   value: "Gazipur",
+  // },
 ];
 
 export const courseStatus = [

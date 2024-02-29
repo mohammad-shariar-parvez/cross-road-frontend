@@ -22,10 +22,10 @@ const LoginPage = () => {
   const router = useRouter();
   const searhParams = useSearchParams().get('redirect') as string;
   const [loadings, setLoadings] = useState<boolean>(false);
-  const callbackUrl = searhParams
-    ? searhParams
-    : 'https://msp-tutoring-service.vercel.app/';
-  // const callbackUrl = searhParams ? searhParams : 'http://localhost:3000/';
+  // const callbackUrl = searhParams
+  //   ? searhParams
+  //   : 'https://msp-tutoring-service.vercel.app/';
+  const callbackUrl = searhParams ? searhParams : 'http://localhost:3000/';
 
   const onSubmit: SubmitHandler<FormValues> = async (data: any) => {
     setLoadings(true);
@@ -56,14 +56,24 @@ const LoginPage = () => {
 
   const githubHandler = async () => {
     await signIn('github', {
-      callbackUrl: callbackUrl || 'https://msp-tutoring-service.vercel.app/',
+      callbackUrl: callbackUrl || 'http://localhost:3000/',
     });
   };
   const googleHandler = async () => {
     await signIn('google', {
-      callbackUrl: callbackUrl || 'https://msp-tutoring-service.vercel.app/',
+      callbackUrl: callbackUrl || 'http://localhost:3000/',
     });
   };
+  // const githubHandler = async () => {
+  //   await signIn('github', {
+  //     callbackUrl: callbackUrl || 'https://msp-tutoring-service.vercel.app/',
+  //   });
+  // };
+  // const googleHandler = async () => {
+  //   await signIn('google', {
+  //     callbackUrl: callbackUrl || 'https://msp-tutoring-service.vercel.app/',
+  //   });
+  // };
 
   return (
     <section className='container  flex justify-center items-center h-screen '>

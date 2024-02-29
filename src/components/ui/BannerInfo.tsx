@@ -32,7 +32,7 @@ const BannerInfo = () => {
 
   return (
     <section>
-      <div className='bg-[#f8fbff] '>
+      <div className='bg-[#f8fbff] mb-16 md:mb-32 '>
         <div className='container py-10 '>
           <div className=' grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-8'>
             <div className=' flex items-center justify-center'>

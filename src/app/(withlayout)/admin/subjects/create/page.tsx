@@ -13,6 +13,8 @@ const CreateSubjects = () => {
   const [addSubject, { isLoading }] = useAddSubjectMutation();
 
   const adminOnSubmit = async (values: any) => {
+    // console.log('SUNJECTTTT', values);
+
     try {
       const res = await addSubject(values);
 

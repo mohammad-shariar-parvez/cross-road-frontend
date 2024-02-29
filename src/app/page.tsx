@@ -1,5 +1,5 @@
 import AccordianFAQ from '@/components/ui/AccordianFaQ';
-import Banner from '@/components/ui/Banner';
+
 import BannerInfo from '@/components/ui/BannerInfo';
 import Category from '@/components/ui/Category';
 import Demo from '@/components/ui/Demo';
@@ -19,6 +19,8 @@ import Choise from '@/components/ui/Choise';
 import NedHelp from '@/components/ui/NedHelp';
 import About from '@/components/ui/About';
 import { Rubik } from 'next/font/google';
+import Banner from '@/components/ui/Banner';
+import DemoAbout from '@/components/ui/DemoAbout';
 const rubik = Rubik({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800'],
@@ -29,10 +31,16 @@ const HomePage = async () => {
     <div>
       <Navbar session={session} home />
       <Banner />
+      <DemoAbout />
       <BannerInfo />
-      <Demo />
-      <Services />
       <Category />
+      <Course />
+      <UpcommingCourse />
+      <AccordianFAQ />
+      <Footer />
+      {/* <Demo /> */}
+      {/* <Services />
+    
       <Course />
       <UpcommingCourse />
       <Info />
@@ -42,7 +50,7 @@ const HomePage = async () => {
       <Choise />
       <NedHelp />
       <About />
-      <Footer />
+       */}
     </div>
   );
 };

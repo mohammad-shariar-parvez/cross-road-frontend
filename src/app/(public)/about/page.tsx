@@ -8,60 +8,27 @@ const AboutUs = () => {
 
       <div className='text-base font-normal text-[#212529]   m-auto space-y-4 text-justify'>
         <p>
-          Study Ground is an interactive education platform for teachers and
-          students, who are passionate about education. We have been successful
-          in making a tool for them, which encourages learning and career
-          advancement flexibly. The registration process is completely free so
-          that people in need can access quality education faster. Through this
-          attempt, we aim to bring education to the maturity it needs.
+          <strong>Cross Road Initiative</strong> একটি অবিন্নমূল্যে এজেন্সি যা
+          ছাত্র-ছাত্রীদেরকে বিদেশে অধ্যয়ন করতে সাহায্য করতে কাজ করছে। আমাদের
+          সেবাগুলি ছাত্র-ছাত্রীদের বিদেশের শিক্ষার পথে এবং পরবর্তী ক্যারিয়ার
+          উন্নতির সাথে মিলিত। আমাদের দক্ষ পরামর্শকারী দল ছাত্র-ছাত্রীদের সঠিক
+          গাইডেন্স এবং সহানুভূতি সরবরাহ করতে প্রবৃদ্ধি করে যাচ্ছে। আমরা
+          বিশ্ববিদ্যালয় এবং পাঠশালা বেছে নিতে সাহায্য করতে পারি, এবং শিক্ষার
+          প্রস্তুতি সম্পর্কিত আপনার সকল প্রয়োজনের সমর্থন করতে একটি পূর্ণাঙ্গ
+          প্ল্যাটফর্ম তৈরি করতে গুরুত্ব দিয়েছি।.
         </p>
         <p>
-          We have made a specialised learning environment to make education
-          interesting and empowering. Yes, we would focus on the word empowering
-          because Study Ground will allow you to learn while you earn and vice
-          versa. On this website, you can find teachers of all subjects and
-          courses. You gain the facility of choosing exactly what you want to
-          learn. If you are searching for a teacher with the words
-          <span className=' font-semibold'> private home tutors near me</span>,
-          then you can be sure that you will get qualified and licensed
-          educators here, who will fit your needs accurately.
+          একাডেমিক যাত্রার সময়ে আমরা ছাত্র-ছাত্রীদেরকে অবশ্যই তাদের প্রয়োজনীয়
+          মার্গনির্দেশন এবং মানবাণিজ্যিক সহায়তা প্রদান করি, যাতে তারা তাদের
+          লক্ষ্যে পৌঁছতে সক্ষম হতে পারে। আমাদের মূল উদ্দেশ্য হল শিক্ষা ও
+          ক্যারিয়ার উন্নতির পথে ছাত্র-ছাত্রীদের সাথে থাকা এবং তাদেরকে একটি
+          উন্নত ভবিষ্যদ্বাণি তৈরি করার জন্য সাহায্য করা ।
         </p>
         <p>
-          There is a popular saying:
-          <span className=' font-semibold'>
-            {' '}
-            A Knife can finish a life or save it
-          </span>
-          . Similarly, the digital medium can be used for good or evil. We would
-          like to stick to the side of good by educating modern pupils. We aim
-          to makethem more conscious by turning them more informed. The best way
-          to do that is to bring digital platforms and education even closer to
-          each other.
+          সম্পূর্ণাঙ্গ এজেন্সি সেবা, বিশেষজ্ঞ পরামর্শ, এবং একক ছাত্র-ছাত্রীর
+          প্রয়োজনীয় সাহায্য দেওয়ার জন্য{' '}
+          <strong>Cross Road Initiative</strong> প্রতিশ্রুতি করে।
         </p>
-        <p>
-          If you need the{' '}
-          <Link
-            className='no-underline text-blue-600 font-semibold'
-            href='https://msp-tutoring-service.vercel.app'
-          >
-            best home tutors in Natore and Gazipur city
-          </Link>{' '}
-          , then Study Ground can definitely help you. Find out about the
-          courses we offer and join our classes to understand the practical
-          meaning of these words you have just read. We can assure you of
-          academic improvement after the completion of any course from here.
-        </p>
-        <p>
-          Find the{' '}
-          <Link
-            className='no-underline text-blue-600 font-semibold'
-            href='https://msp-tutoring-service.vercel.app'
-          >
-            best online private tutors in those cities
-          </Link>{' '}
-          and start learning in Study Ground to fulfil your dreams.
-        </p>
-        <p>Make a difference…a good one!</p>
       </div>
     </section>
   );

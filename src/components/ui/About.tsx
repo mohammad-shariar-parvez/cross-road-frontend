@@ -20,24 +20,26 @@ const About = () => {
         />
         <div className='text-base font-normal text-[#212529]   m-auto space-y-4 text-justify'>
           <p>
-            Study Ground is an interactive education platform for teachers and
-            students, who are passionate about education. We have been
-            successful in making a tool for them, which encourages learning and
-            career advancement flexibly. The registration process is completely
-            free so that people in need can access quality education faster.
-            Through this attempt, we aim to bring education to the maturity it
-            needs.
+            <strong>Cross Road Initiative</strong> একটি অবিন্নমূল্যে এজেন্সি যা
+            ছাত্র-ছাত্রীদেরকে বিদেশে অধ্যয়ন করতে সাহায্য করতে কাজ করছে। আমাদের
+            সেবাগুলি ছাত্র-ছাত্রীদের বিদেশের শিক্ষার পথে এবং পরবর্তী ক্যারিয়ার
+            উন্নতির সাথে মিলিত। আমাদের দক্ষ পরামর্শকারী দল ছাত্র-ছাত্রীদের সঠিক
+            গাইডেন্স এবং সহানুভূতি সরবরাহ করতে প্রবৃদ্ধি করে যাচ্ছে। আমরা
+            বিশ্ববিদ্যালয় এবং পাঠশালা বেছে নিতে সাহায্য করতে পারি, এবং শিক্ষার
+            প্রস্তুতি সম্পর্কিত আপনার সকল প্রয়োজনের সমর্থন করতে একটি পূর্ণাঙ্গ
+            প্ল্যাটফর্ম তৈরি করতে গুরুত্ব দিয়েছি।.
           </p>
           <p>
-            We have made a specialised learning environment to make education
-            interesting and empowering. Yes, we would focus on the word
-            empowering because Study Ground will allow you to learn while you
-            earn and vice versa. On this website, you can find teachers of all
-            subjects and courses. You gain the facility of choosing exactly what
-            you want to learn. If you are searching for a teacher with the words
-            <strong> private home tutors near me</strong>, then you can be sure
-            that you will get qualified and licensed educators here, who will
-            fit your needs accurately.
+            একাডেমিক যাত্রার সময়ে আমরা ছাত্র-ছাত্রীদেরকে অবশ্যই তাদের
+            প্রয়োজনীয় মার্গনির্দেশন এবং মানবাণিজ্যিক সহায়তা প্রদান করি, যাতে
+            তারা তাদের লক্ষ্যে পৌঁছতে সক্ষম হতে পারে। আমাদের মূল উদ্দেশ্য হল
+            শিক্ষা ও ক্যারিয়ার উন্নতির পথে ছাত্র-ছাত্রীদের সাথে থাকা এবং
+            তাদেরকে একটি উন্নত ভবিষ্যদ্বাণি তৈরি করার জন্য সাহায্য করা ।
+          </p>
+          <p>
+            সম্পূর্ণাঙ্গ এজেন্সি সেবা, বিশেষজ্ঞ পরামর্শ, এবং একক ছাত্র-ছাত্রীর
+            প্রয়োজনীয় সাহায্য দেওয়ার জন্য{' '}
+            <strong>Cross Road Initiative</strong> প্রতিশ্রুতি করে।
           </p>
 
           <div className='pt-4'>

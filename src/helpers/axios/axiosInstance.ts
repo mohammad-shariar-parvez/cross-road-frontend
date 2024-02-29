@@ -24,6 +24,7 @@ instance.interceptors.request.use(
 
 
     if (session) {
+      console.log("YOOOOOO---", config);
 
       // const xxxx = session.user.accessToken ? session.user.accessToken  : "";
       //@ts-ignore

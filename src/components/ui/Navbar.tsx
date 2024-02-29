@@ -99,7 +99,7 @@ const Navbar = ({ session, home = false }: Record<string, any>) => {
                 <div className=' container  flex justify-between items-center   '>
                   <Link href='/' className=''>
                     <h2 className=' text-secondary font-bold text-2xl'>
-                      MSP Tutoring
+                      Cross Road
                     </h2>
                   </Link>
 
